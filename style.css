@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+      background: #EFEFEF;
+}
+
+body::before{
+  content: '';
+    width: 100%;
+      height: 436px;
+        background: #535971;
+          display: block;
+            position: absolute;
+              z-index: -1;
+                top: 0;
+                  left: 0;
+}
+
+.page{
+  width: 750px;
+  margin: 0 auto;
+}
+
+header{
+  width: 417px;
+}
+
+
+header h1{
+  margin-top: 141px;
+
+  color: #FFF;
+    font-family: Staatliches;
+      font-size: 48px;
+        font-style: normal;
+          font-weight: 400;
+            line-height: normal;
+}
+
+header p{
+  color: #FFF;
+    font-family: Poppins;
+      font-size: 20px;
+        font-style: normal;
+          font-weight: 400;
+            line-height: normal;
+}
+
+form{
+  border-radius: 20px 20px 0px 0px;
+  background: #FFF;
+  padding: 64px;
+  width: 750px;
+  height: 1084px;
+  flex-shrink: 0;
+  margin-top: 58px;
+ 
+}
+
+fieldset{
+  border: none;
+  
+}
+
+legend{
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; 
+
+  
+}
+
+fieldset{
+  color: #4E4958;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+input{
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #E6E6F0);
+  background: var(--shapes-02, #FAFAFC);
+
+  width: 100%;
+  height: 56px;
+  appearance: none;
+}
+
+#name {
+  width: 300px;
+height: 56px;
+}
+
+#surname{
+  width: 300px;
+  height: 56px;
+}
+
+.name{
+  display: flex;
+  gap: 22px;
+  
+}
+
+.fieldset-name{
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset-surname{
+  display: flex;
+  flex-direction: column;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.fieldset-email{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 16px;
+  }
+
+.login{
+  width: 622px;
+}
+
+.mentor{
+  width: 622px;
+}
+.fieldset-password{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.mentor{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.time h1{
+  margin-top: 32px;
+  color: #535971;
+font-family: Staatliches;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 170% */
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+}
+
+.time legend{
+  margin-top: 32px;
+}
+
+.time .time-1{
+  display: flex;
+  width: 100%;
+  gap: 32px;
+}
+
+.time-1 .data{
+  display: flex;
+  flex-direction: column;
+}
+
+.time-1 .das{
+  display: flex;
+  flex-direction: column;
+}
+
+.time-1 .ate{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#date{
+  width: 300px;
+}
+
+#das{
+  width: 140px;
+height: 56px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+}
+
+#ate{
+  width: 140px;
+height: 56px;
+flex-shrink: 0;
+
+}
+
+.time .time-2{
+  display: flex;
+  
+}
+
+.time-2{
+  margin-top: 16px;
+}
+.col-3{
+  display: flex;
+  gap: 32px;
+}
+
+.name {
+  width: 100%;
+}
+
+.col-3 .data {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-3 .das {
+  display: flex;
+  flex-direction: column;
+  }
+
+.col-3 .ate {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.footer{
+  margin-top: 64px;
+  padding: 52px 70px;
+  border-radius: 20px;
+  background: #535971;
+}
+
+.footer #button{
+  padding: 15px 40px;
+  border-radius: 20px;
+  background: #FF5374;
+}
